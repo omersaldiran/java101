@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class manavGiderHesapla {
     public static void main(String[] args) {
-        double armut,elma,domates,muz,patlıcan,toplam;
+        double armut, elma, domates, muz, patlıcan, toplam;
         Scanner input = new Scanner(System.in);
         System.out.printf("Armut kaç kilo : ");
         armut = input.nextInt();
@@ -21,7 +21,7 @@ public class manavGiderHesapla {
         System.out.printf("Patlıcan kaç kilo : ");
         patlıcan = input.nextInt();
         patlıcan *= 5;
-        toplam = armut+elma+domates+muz+patlıcan;
+        toplam = armut + elma + domates + muz + patlıcan;
         System.out.printf("Toplam Tutar : " + toplam + "TL");
     }
 }
