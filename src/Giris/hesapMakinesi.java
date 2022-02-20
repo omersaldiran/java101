@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class hesapMakinesi {
     public static void main(String[] args) {
-        int sayi1,sayi2;
+        int sayi1, sayi2;
         double sonuc;
         int secim;
         Scanner input = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class hesapMakinesi {
         System.out.println("1-Toplama\n2-Çıkarma\n3-Bölme\n4-Çarpma");
         secim = input.nextInt();
         System.out.println("Seçim : " + secim);
-        switch (secim){
+        switch (secim) {
             case 1:
                 System.out.println("Toplanacak sayıları giriniz : ");
                 sayi1 = input.nextInt();
