@@ -2,6 +2,7 @@ package Generic;
 
 public class main {
     public static void main(String[] args) {
-        System.out.println("deneme");
+        Nullable<String> a = new Nullable<>(null);
+        a.run();
     }
 }
