@@ -8,6 +8,11 @@ public class main {
         Integer[] arr2 = {1,2,3,4,5};
         printArr(arr1);
         printArr(arr2);
+
+        Student<String> s1 = new Student();
+        s1.select();
+        s1.insert("Merhaba");
+
     }
 
     public static <T> void printArr(T[] arr){
