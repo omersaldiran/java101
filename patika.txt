@@ -1,3 +1,1 @@
-denemeOutput Stream Öğreniyorum!
-patika.devOutput Stream Öğreniyorum!
-patika.dev
+Java 102 Data
